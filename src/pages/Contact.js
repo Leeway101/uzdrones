@@ -73,6 +73,7 @@ const Contact = () => {
               src="https://maps.google.com/maps?q=41.29867933086266,69.3502154492661&z=14&output=embed"
               width="100%"
               height="450"
+              title="Uzdrones Google Map Location"
               className="rounded-xl shadow-md"
               allowFullScreen=""
               loading="lazy"

@@ -36,9 +36,15 @@ const Hero = () => {
           </div>
           <div className="flex items-center space-x-3">
             <span>Share:</span>
-            <a href="#" className="text-orange-500"><i className="bi bi-facebook"></i></a>
-            <a href="#" className="text-orange-500"><i className="bi bi-twitter"></i></a>
-            <a href="#" className="text-orange-500"><i className="bi bi-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-orange-500">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-orange-500">
+              <i className="bi bi-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-orange-500">
+              <i className="bi bi-instagram"></i>
+            </a>
           </div>
         </div>
       </div>

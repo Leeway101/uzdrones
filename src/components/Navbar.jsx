@@ -28,6 +28,7 @@ const Navbar = () => {
         <button
           className="text-white md:hidden focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle Menu"
         >
           <svg
             className="w-6 h-6"
