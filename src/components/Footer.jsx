@@ -15,19 +15,19 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <h2 className="text-3xl font-extrabold text-white">Uzdrones LLC</h2>
           <div className="flex gap-5 mt-4 md:mt-0 text-xl">
-            <a href="#">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               <FaTwitter />
             </a>
-            <a href="#">
+            <a href="https://apple.com" target="_blank" rel="noopener noreferrer">
               <FaApple />
             </a>
-            <a href="#">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="#">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
               <FaYoutube />
             </a>
-            <a href="#">
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
               <FaPinterest />
             </a>
           </div>
@@ -40,27 +40,25 @@ const Footer = () => {
         <div>
           <h5 className="text-yellow-400 text-[18px] font-bold mb-4">Links</h5>
           <div className="flex flex-wrap gap-4 text-[16px]">
-            {["Home", "About", "Products", "Services", "Contact"].map(
-              (item) => (
-                <a
-                  key={item}
-                  href={`#section_${
-                    item === "Home"
-                      ? 1
-                      : item === "About"
-                      ? 2
-                      : item === "Products"
-                      ? 3
-                      : item === "Services"
-                      ? 4
-                      : 5
-                  }`}
-                  className="hover:text-[#f24e1e]"
-                >
-                  {item}
-                </a>
-              )
-            )}
+            {["Home", "About", "Products", "Services", "Contact"].map((item) => (
+              <a
+                key={item}
+                href={`#section_${
+                  item === "Home"
+                    ? 1
+                    : item === "About"
+                    ? 2
+                    : item === "Products"
+                    ? 3
+                    : item === "Services"
+                    ? 4
+                    : 5
+                }`}
+                className="hover:text-[#f24e1e]"
+              >
+                {item}
+              </a>
+            ))}
           </div>
         </div>
 
@@ -76,11 +74,14 @@ const Footer = () => {
 
         {/* Location */}
         <div>
-          <h5 className="text-yellow-400 text-[18px] font-bold mb-4">
-            Location
-          </h5>
+          <h5 className="text-yellow-400 text-[18px] font-bold mb-4">Location</h5>
           <p className="mb-3">Toshkent shahri</p>
-          <a href="#" className="text-white  flex items-center w-fit ">
+          <a
+            href="https://maps.google.com?q=Tashkent"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white flex items-center w-fit"
+          >
             <span className="mr-1">Our Maps</span>
             <svg
               className="w-4 h-4"
